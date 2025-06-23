@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Merci pour votre réservation</title>
+  <style>
+    :root {
+      --dark-blue: #003366;
+      --white: #FFFFFF;
+      --light-gray: #F5F5F5;
+      --green: #28A745;
+      --transition: 0.3s ease;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; background: var(--light-gray); padding: 40px 20px; text-align: center; color: #333; }
+    .container { max-width: 400px; margin: auto; background: var(--white); padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    h2 { color: var(--green); margin-bottom: 20px; }
+    p { margin-bottom: 15px; }
+    .cta-btn {
+      display: inline-block;
+      background: var(--dark-blue);
+      color: var(--white);
+      padding: 12px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background var(--transition);
+    }
+    .cta-btn:hover { background: #002244; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Merci pour votre réservation !</h2>
+    <p>Votre demande a bien été reçue.</p>
+    <p>Veuillez appeler le <strong>+221 77 544 93 11</strong> pour confirmer votre trajet.</p>
+    <a href="/" class="cta-btn">← Retour à l'accueil</a>
+  </div>
+</body>
+</html>

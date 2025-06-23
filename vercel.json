@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/reserver.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/reserver", "dest": "api/reserver.js" },
+    { "src": "/", "dest": "public/index.html" },
+    { "src": "/merci", "dest": "public/merci.html" }
+  ]
+}
